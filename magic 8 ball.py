@@ -1,6 +1,6 @@
 from random import randint
 print "Welcome to Python Magic 8 ball"
-print "/t Ask a question"
+print "\t Ask a question"
 def start():
     question=raw_input("Type:")
     num=randint(0,8)
